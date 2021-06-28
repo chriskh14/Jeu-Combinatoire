@@ -1,28 +1,27 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <title>Solitaire Game</title>
-</head>
-<body>
-    <div id="app">
-        <h1 id="title">Solitaire Game</h1>
-        <div id="status">
-            <div id="turn">P1's turn</div>
-            <div id="winner">Winner:</div>
-            <div id="player1">P1 points:</div>
-            <div id="player2">P2 points:</div>
-            <button type="button" id="reset">
-                <i class="material-icons">refresh</i>
-            </button>
-        </div>
-        <div id="game-board">
-             
-        </div>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="./css/menu.css">
+    </head>
+<body id = "body">
+    <div class="splash">
+        <h1 class="fade-in">Welcome to Duolitaire!</h1>
     </div>
-    <script src="./js/main.js" type="module"></script>
+    <div id = "menu">
+        <h1 id="title">Duolitaire Game</h1>
+        <h1 id="title">Menu</h1>
+        <div> 
+        <ul id ="move">
+
+            <li class ="button" id="start">Press to Start</li>
+            <!-- <li class ="button" id="scores">Scores</li> -->
+            <li class ="button" id="rules">Game Rules</li>
+            <li class ="button" id="about">About</li> 
+
+        </ul>
+    <p id="bottom">Made with passion by STI 3A</p>
+    </div>   
+    </div>
+    <script src="./js/mainMenu.js"></script>
 </body>
 </html>
